@@ -1,3 +1,0 @@
-classes = 2
-train = candles_v2-2022-02-28T061405/train.txt
-data = candles_v2-2022-02-28T061405/obj.names
