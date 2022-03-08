@@ -1,0 +1,22 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: .  # dataset root dir
+train: ../Object_Detection/StockObjects.v1i.yolov5pytorch/train/images  # train images (relative to 'path') 128 images ../Object_Detection/StockObjects.v1i.yolov5pytorch
+val: ../Object_Detection/StockObjects.v1i.yolov5pytorch/valid/images  # val images (relative to 'path') 128 images
+test:  ../Object_Detection/StockObjects.v1i.yolov5pytorch/test/images # test images (optional)
+
+# Classes
+nc: 17  # number of classes
+names: ['Bearish: 3 Black Crows', 'Bearish: 3 Line Strike', 'Bearish: Abandoned Baby', 'Bearish: Engulfing', 'Bearish: Evening Star Doji', 'Bearish: Kicker', 'Bearish: Shooting Star', 'Bearish: Tweezer Top', 'Bullish: 3 Line Strike', 'Bullish: 3 White Soldiers', 'Bullish: Abandoned Baby', 'Bullish: Engulfing', 'Bullish: Hammer', 'Bullish: Inverted Hammer', 'Bullish: Kicker', 'Bullish: Morning Star Doji', 'Bullish: Tweezer Bottom']  # class names
+
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
