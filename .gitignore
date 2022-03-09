@@ -1,6 +1,5 @@
 # Project Files
-.ipynb_checkpoints/
-Image_Classification
+
 Object_Detection/yolov5/
 
 # Byte-compiled / optimized / DLL files
