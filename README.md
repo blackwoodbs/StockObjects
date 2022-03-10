@@ -59,8 +59,8 @@ https://www.alphaexcapital.com/candlestick-patterns/
     │   ├── images
     │   └── labels
     └── valid
-           ├── images
-           └── labels
+        ├── images
+        └── labels
         
     ```
     
