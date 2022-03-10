@@ -99,7 +99,7 @@ https://www.alphaexcapital.com/candlestick-patterns/
     2. A baseline model was build and trained using tensorflow documentation https://www.tensorflow.org/tutorials/images/classification
     3. Slight tuning of hyperparameters was done based on data understanding and use case.
     
-<img src="visuals/Screen Shot 2022-02-28 at 3.09.17 PM.png" width=600/>
+<img src="visuals/Screen Shot 2022-03-06 at 10.30.58 PM.png" width=600/>
     
     
 * Detector
@@ -138,12 +138,12 @@ Model accuracy = 92%
 <table width="100%" border="0">
   <tr>    
   <td><img src="visuals/Screen Shot 2022-03-04 at 8.40.58 AM.png" alt="" align="left" /></td>
-  <td><img src="visuals/Screen Shot 2022-03-06 at 10.30.58 PM.png" alt="" align="center" /></td>
+  <td><img src="visuals/Screen Shot 2022-02-28 at 3.09.17 PM.png" alt="" align="center" /></td>
   <td><img src="visuals/confusion_matrix.png" alt="" align="right"/></td>
   </tr>
   <tr>
-  <td> Training: increasing in both training accuracy and validation accuracy.</td>
-  <td> Visualizing performance of the validation accuracy. I was currious to see what patterns it was unable to identify correctly and what it was mistaken for (some patterns are very similar)</td>
+  <td> Training: Optomized for mAP. The final model stopped training at 380/500 epochs because It stopped increasing peformance. Model was trained in Google Colab. </td>
+  <td> Visualizing performance of the validation accuracy. </td>
   <td>Confusion Matrix: lots of patterns were missed (predicted background but have a labeled pattern). Object detector confused "Bearish: Abandoned Baby" and "Bearish: Shooting Star" which are very similar.</td>
   </tr>
 </table>
